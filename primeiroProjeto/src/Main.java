@@ -6,6 +6,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
+
         Cliente cliente = new Cliente();
         //Cliente cliente2 = new    Cliente(1l, "Anderson","dada.anderson@hotmail",31);
 
@@ -25,7 +26,7 @@ public class Main {
         System.out.println(detergente);
 
         Produto produto2 = new Produto();
-
+        produto2.setDescricao("pano");
 
         //produto2.setDescricao("Desinfetante");
 
